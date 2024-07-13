@@ -79,7 +79,7 @@ const TextForm = (props) => {
             rows="8"
             style={{
               backgroundColor: props.mode === "light" ? "white" : "lightgrey",
-              color: props.mode === "dark" ? "white" : "black",
+              color: props.mode === "dark" ? "black" : "black",
             }}
           ></textarea>
         </div>
